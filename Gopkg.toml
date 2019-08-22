@@ -1,0 +1,18 @@
+[[constraint]]
+  name = "github.com/inconshreveable/log15"
+  version = "2.14.0"
+
+[[constraint]]
+  name = "github.com/stretchr/testify"
+  version = "1.3.0"
+
+[[constraint]]
+    name = "github.com/aws/aws-sdk-go"
+    version = "v1.15.77"
+
+[[constraint]]
+  name = "github.com/urfave/cli"
+
+[prune]
+  go-tests = true
+  unused-packages = true
